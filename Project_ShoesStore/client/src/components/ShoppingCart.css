@@ -1,0 +1,56 @@
+/* Styles for the shopping cart overlay */
+.shopping-cart-overlay {
+  position: fixed; /* Fixes the overlay to the viewport */
+  top: 0; /* Positions it at the top */
+  left: 0; /* Positions it at the left */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex; /* Flexbox layout */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  z-index: 1000; /* High z-index to overlay it above other elements */
+}
+
+/* Styles for the shopping cart container */
+.shopping-cart {
+  background-color: white; /* White background color */
+  padding: 20px; /* Inner padding */
+  border-radius: 15px; /* Rounds the corners */
+  width: 400px; /* Fixed width */
+  max-height: 80vh; /* Maximum height at 80% of the viewport height */
+  overflow-y: auto; /* Allows vertical scrolling if content exceeds max height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
+/* Styles for each cart item */
+.cart-item {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center-align items vertically */
+  margin-bottom: 10px; /* Margin below each cart item */
+}
+
+/* Styles for the image within each cart item */
+.cart-item img {
+  width: 50px; /* Fixed width */
+  height: auto; /* Automatic height */
+  margin-right: 10px; /* Margin to the right */
+}
+
+/* Styles for the cart total section */
+.cart-total {
+  text-align: center; /* Center-align text */
+  margin-top: 20px; /* Margin above the total section */
+}
+
+
+
+
+
+
+
+
+
+
+  

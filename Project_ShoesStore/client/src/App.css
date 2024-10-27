@@ -1,0 +1,14 @@
+/* General styles for the entire application */
+.App {
+  font-family: Arial, sans-serif; /* Sets the font family for the application */
+  padding-top: 80px; /* Adds padding at the top to make space for the fixed header */
+  background: #f4f7f6; /* Sets a light background color for the application */
+  color: #333; /* Sets the text color to a dark gray */
+}
+
+/* General container styles */
+.container {
+  max-width: 1200px; /* Sets the maximum width for the container */
+  margin: 0 auto; /* Centers the container horizontally */
+  padding: 0 20px; /* Adds horizontal padding inside the container */
+}

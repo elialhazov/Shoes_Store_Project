@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Nike Shoes",
+      "description": "Comfortable running shoes",
+      "price": 299,
+      "image": "/images/nike.jpg"
+    },
+    {
+      "name": "Adidas Sandals",
+      "description": "Stylish summer sandals",
+      "price": 199,
+      "image": "/images/adidas.jpg"
+    },
+    {
+      "name": "Puma Boots",
+      "description": "Durable winter boots",
+      "price": 399,
+      "image": "/images/puma.jpg"
+    }
+  ]
+  
+  

@@ -1,0 +1,52 @@
+/* Navbar container styles */
+.navbar {
+  padding: 10px 30px; /* Inner padding */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow effect for the navbar */
+  font-size: 0.9em; /* Smaller text size */
+}
+
+/* Logo styles */
+.logo {
+  cursor: pointer; /* Changes cursor to pointer when hovering over the logo */
+}
+
+/* Logo icon styles */
+.logo-icon {
+  width: 40px; /* Smaller logo width */
+  height: 40px; /* Smaller logo height */
+  object-fit: contain; /* Ensures the image fits within the given dimensions */
+  border-radius: 50%; /* Rounds the corners of the logo */
+}
+
+/* Navigation links styles */
+.nav-links .btn {
+  margin-left: 10px; /* Adds space to the left of each button */
+  font-size: 0.9em; /* Smaller text size for buttons */
+}
+
+/* Navbar brand styles */
+.navbar-brand {
+  display: flex; /* Use flexbox layout */
+  align-items: center; /* Align items in the center vertically */
+}
+
+/* Navbar brand image styles */
+.navbar-brand img {
+  margin-right: 10px; /* Adds space to the right of the image */
+}
+
+/* Navbar brand button styles */
+.navbar-brand.btn {
+  background: none; /* Removes background */
+  border: none; /* Removes border */
+  color: white; /* Text color */
+  padding: 0; /* Removes padding */
+  font-size: 1.25em; /* Larger text size */
+}
+
+
+
+
+  
+  
+  

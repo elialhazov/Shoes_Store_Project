@@ -1,0 +1,64 @@
+/* Banner container styles */
+.banner {
+  position: relative; /* Allows positioning of child elements */
+  width: 100%; /* Full width of the parent container */
+  height: 400px; /* Fixed height for the banner */
+  overflow: hidden; /* Hides overflow content */
+  border-radius: 15px; /* Rounds the corners of the banner */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow effect around the banner */
+  margin-bottom: 20px; /* Adds space below the banner */
+}
+
+/* Image within the banner */
+.banner-image {
+  width: 100%; /* Full width of the banner */
+  height: 100%; /* Full height of the banner */
+  object-fit: cover; /* Ensures the image covers the entire area without distortion */
+  transition: transform 0.5s ease; /* Smooth transition for transformations */
+}
+
+/* Image zoom effect on hover */
+.banner:hover .banner-image {
+  transform: scale(1.1); /* Scales the image up when the banner is hovered over */
+}
+
+/* Overlay styles */
+.banner-overlay {
+  position: absolute; /* Positioned relative to the .banner container */
+  top: 0; /* Starts at the top of the .banner container */
+  left: 0; /* Starts at the left of the .banner container */
+  width: 100%; /* Full width of the .banner container */
+  height: 100%; /* Full height of the .banner container */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)); /* Gradient overlay from top to bottom */
+  display: flex; /* Flexbox layout for centering content */
+  flex-direction: column; /* Column direction for child elements */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  color: white; /* Text color */
+  text-align: center; /* Center text alignment */
+  padding: 20px; /* Padding around the content */
+}
+
+/* Title styles within the overlay */
+.banner-title {
+  font-size: 3em; /* Large font size for the title */
+  margin: 0; /* No margin */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Shadow effect for the text */
+  font-family: 'Arial', sans-serif; /* Font family for the title */
+  letter-spacing: 1.5px; /* Space between letters */
+}
+
+/* Subtitle styles within the overlay */
+.banner-subtitle {
+  font-size: 1.5em; /* Medium font size for the subtitle */
+  margin-top: 10px; /* Space above the subtitle */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Shadow effect for the text */
+  font-family: 'Arial', sans-serif; /* Font family for the subtitle */
+  letter-spacing: 1px; /* Space between letters */
+}
+
+
+  
+   
+  
+  

@@ -1,0 +1,108 @@
+/* General styles for the order page */
+.order-page {
+  padding: 20px; /* Inner padding */
+  background: #f8f9fa; /* Light background color */
+  border-radius: 15px; /* Rounds the corners of the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow effect around the container */
+  margin: 20px auto; /* Adds vertical margin and centers the container horizontally */
+  max-width: 800px; /* Maximum width of the container */
+}
+
+/* Styles for the close button */
+.close-button {
+  background-color: #ff0000; /* Red background color */
+  color: white; /* White text color */
+  border: none; /* Removes the default border */
+  padding: 5px 10px; /* Inner padding */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  border-radius: 5px; /* Rounds the corners of the button */
+  margin-bottom: 10px; /* Adds margin below the button */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* Hover effect for the close button */
+.close-button:hover {
+  background-color: #cc0000; /* Darker red background color on hover */
+}
+
+/* Styles for the order summary section */
+.order-summary {
+  margin-bottom: 20px; /* Adds margin below the summary */
+}
+
+/* Styles for each order item */
+.order-item {
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Center-align items vertically */
+  margin-bottom: 10px; /* Adds margin below each item */
+  background: #fff; /* White background color */
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 10px; /* Inner padding */
+  border-radius: 10px; /* Rounds the corners of the item */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow effect */
+}
+
+/* Styles for the image within each order item */
+.order-item img {
+  width: 50px; /* Fixed width */
+  height: auto; /* Automatic height */
+  margin-right: 10px; /* Adds margin to the right */
+  border-radius: 5px; /* Rounds the corners of the image */
+}
+
+/* Styles for the item details */
+.item-details {
+  flex: 1; /* Flex-grow to fill available space */
+}
+
+/* Styles for form elements */
+form div {
+  margin-bottom: 10px; /* Adds margin below each form element */
+}
+
+/* Styles for form labels */
+form label {
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Adds margin below labels */
+  font-weight: bold; /* Bold text */
+}
+
+/* Styles for form inputs and selects */
+form input, form select {
+  width: 100%; /* Full width */
+  padding: 8px; /* Inner padding */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 5px; /* Rounds the corners */
+}
+
+/* Focus styles for form inputs and selects */
+form input:focus, form select:focus {
+  outline: none; /* Removes default outline */
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adds a shadow effect on focus */
+}
+
+/* Styles for form buttons */
+form button {
+  background-color: #007bff; /* Blue background color */
+  color: white; /* White text color */
+  border: none; /* Removes default border */
+  padding: 10px 15px; /* Inner padding */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  border-radius: 5px; /* Rounds the corners of the button */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions for background color and transform */
+  font-size: 1.2em; /* Larger font size */
+}
+
+/* Hover effect for form buttons */
+form button:hover {
+  background-color: #0056b3; /* Darker blue background color on hover */
+  transform: translateY(-2px); /* Moves the button up slightly on hover */
+}
+
+
+
+
+
+  

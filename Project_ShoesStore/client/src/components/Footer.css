@@ -1,0 +1,24 @@
+/* Footer container styles */
+.footer {
+  background-color: #343a40; /* Dark background color */
+  color: #ffffff; /* Text color */
+  text-align: center; /* Center-align text */
+  padding: 10px 0; /* Vertical padding */
+  font-size: 0.9em; /* Smaller font size */
+  position: fixed; /* Fixes the footer to the bottom of the page */
+  bottom: 0; /* Positions the footer at the bottom */
+  width: 100%; /* Full width of the page */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Adds a shadow effect above the footer */
+  font-family: 'Roboto', sans-serif; /* Font family */
+  letter-spacing: 0.05em; /* Adds space between letters */
+  z-index: 1000; /* Ensures the footer is above other elements */
+}
+
+/* Paragraph styles within the footer */
+.footer p {
+  margin: 0; /* Removes default margin */
+  padding: 0 10px; /* Horizontal padding */
+}
+
+  
+  

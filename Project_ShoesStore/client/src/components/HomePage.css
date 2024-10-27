@@ -1,0 +1,56 @@
+/* General styles for the home page */
+.home-page {
+  padding: 20px;
+  background-color: #f4f7f6; /* General background color for the site */
+}
+
+/* Styles for the about section */
+.about {
+  text-align: center; /* Center-align text */
+  margin: 20px 0; /* Vertical margin */
+  padding: 20px; /* Padding inside the about section */
+  background-color: #fff; /* White background color */
+  border-radius: 10px; /* Rounds the corners of the about section */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a shadow effect around the section */
+}
+
+/* Styles for the heading within the about section */
+.about h2 {
+  font-size: 2em; /* Large font size */
+  margin-bottom: 10px; /* Space below the heading */
+  color: #333; /* Darker text color */
+}
+
+/* Styles for the paragraph within the about section */
+.about p {
+  font-size: 1.2em; /* Medium font size */
+  color: #555; /* Gray text color */
+}
+
+/* Styles for the product card */
+.product-card {
+  border: none; /* Removes default border */
+  border-radius: 15px; /* Rounds the corners of the card */
+  text-align: center; /* Center-align text */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for transformations and shadows */
+  background-color: #fff; /* White background color */
+}
+
+/* Styles for the image within the product card */
+.product-card img {
+  border-radius: 15px 15px 0 0; /* Rounds the top corners of the image */
+}
+
+/* Hover effect for the product card */
+.product-card:hover {
+  transform: translateY(-5px); /* Moves the card up slightly */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adds a larger shadow effect */
+}
+
+
+
+
+ 
+
+  
+  
